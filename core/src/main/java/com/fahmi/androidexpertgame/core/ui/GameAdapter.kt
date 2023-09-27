@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.fahmi.androidexpertgame.core.R
 import com.fahmi.androidexpertgame.core.databinding.ItemGameBinding
 import com.fahmi.androidexpertgame.core.domain.model.Game
@@ -36,11 +37,11 @@ class GameAdapter : RecyclerView.Adapter<GameAdapter.ListViewHolder>() {
         private val binding = ItemGameBinding.bind(itemView)
         fun bind(data: Game) {
             with(binding) {
-//                Glide.with(itemView.context)
-//                    .load(data.backgroundImage)
-//                    .fitCenter()
-//                    .centerCrop()
-//                    .into(backgroundImage)
+                Glide.with(itemView.context)
+                    .load(data.backgroundImage)
+                    .fitCenter()
+                    .centerCrop()
+                    .into(backgroundImage)
                name.text = data.name
                rating.text = data.rating.toString()
                 released.text = data.released

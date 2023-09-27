@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="trans_black">#66000000</color>
+    <color name="grey">#1E1E1E</color>
+    <color name="light_grey">#303030</color>
+    <color name="rating_exceptional">#83C63C</color>
+    <color name="rating_recommended">#5882e7</color>
+    <color name="rating_meh">#f9a13e</color>
+    <color name="rating_skip">#f83745</color>
+    <color name="divider_color">#4D494949</color>
+</resources>

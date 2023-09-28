@@ -2,8 +2,8 @@ package com.fahmi.androidexpertgame.core.data.source.remote.response
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
-import kotlinx.android.parcel.Parcelize
 
+import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class GameDetailResponse(

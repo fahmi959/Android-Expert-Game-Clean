@@ -30,7 +30,7 @@ class DetailGameActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
 
 
-        val detailGame = intent.getParcelableExtra<Game>(EXTRA_DATA)
+        @Suppress("DEPRECATION") val detailGame = intent.getParcelableExtra<Game>(EXTRA_DATA)
         showDetailGame(detailGame)
 
         // Fetch and observe game details

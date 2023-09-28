@@ -6,7 +6,7 @@
 
     <application
 
-        android:name=".MyApplication"
+        android:name=".favorite.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"

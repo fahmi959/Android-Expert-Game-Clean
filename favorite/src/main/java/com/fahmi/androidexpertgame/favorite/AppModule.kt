@@ -1,4 +1,4 @@
-package com.fahmi.androidexpertgame.core.di
+package com.fahmi.androidexpertgame.favorite
 
 import com.fahmi.androidexpertgame.core.domain.usecase.GameInteractor
 import com.fahmi.androidexpertgame.core.domain.usecase.GameUseCase

@@ -44,7 +44,7 @@ android {
 
 
 
-        baseline file("lint-baseline.xml")
+//        baseline file("lint-baseline.xml")
         // Menonaktikan Issue ID yang disebutkan.
         disable 'TypographyFractions','TypographyQuotes'
         // Mengkatifkan Issue ID yang disebutkan.

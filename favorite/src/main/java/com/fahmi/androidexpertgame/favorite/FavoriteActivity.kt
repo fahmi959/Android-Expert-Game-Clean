@@ -3,7 +3,6 @@ package com.fahmi.androidexpertgame.favorite
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import androidx.recyclerview.widget.GridLayoutManager
 import com.fahmi.androidexpertgame.core.ui.GameAdapter
 import com.fahmi.androidexpertgame.detail.DetailGameActivity
